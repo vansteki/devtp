@@ -8,10 +8,12 @@
 	define('INC', '');
 	define('MODEL', '');
 	define('VIEW', '');
+	define('CTRL', '');
 	define('SESSION_MAX_TIME', 0);
 	
 	$ROOT =  ROOT;
 	$HOST_URL = HOST_URL;
 	$FQDN = FQDN; 		
-	$DB_CONF_PATH = DB_CONF_PATH;	
+	$DB_CONF_PATH = DB_CONF_PATH;
+	$CTRL = CTRL;
 ?>
