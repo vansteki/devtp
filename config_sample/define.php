@@ -1,5 +1,5 @@
 <?php
-    define('ROOT', dirname(dirname(__FILE__))); // /var/www/projectName
+    	define('ROOT', dirname(dirname(__FILE__))); // /var/www/projectName
 	define('HOST_URL', '');
 	define('FQDN', '');
 	define('DB_CONF_PATH', '');
