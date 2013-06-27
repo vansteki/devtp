@@ -11,6 +11,8 @@
 	define('CTRL', '');
 	define('SESSION_MAX_TIME', 0);
 	define('VIEW_URL', HOST_URL.'/view');
+	define('CTRL_URL', HOST_URL.'/controller');
+
 	
 	$ROOT =  ROOT;
 	$HOST_URL = HOST_URL;
