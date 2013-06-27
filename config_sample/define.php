@@ -10,6 +10,7 @@
 	define('VIEW', '');
 	define('CTRL', '');
 	define('SESSION_MAX_TIME', 0);
+	define('VIEW_URL', HOST_URL.'/view');
 	
 	$ROOT =  ROOT;
 	$HOST_URL = HOST_URL;
