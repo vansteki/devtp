@@ -8,15 +8,16 @@
 	define('INC',ROOT.'/include');
 	define('MODEL', ROOT.'/model');
 	define('VIEW', ROOT.'/view');
-	define('CTRL', ROOT.'/controller');
 	define('VIEW_URL', HOST_URL.'/view');
+	define('CTRL', ROOT.'/controller');
 	define('CTRL_URL', HOST_URL.'/controller');
 	define('ADMIN', ROOT.'/model/admin.php');
 	define('SESSION_MAX_TIME', 0);
 	
 	$ROOT =  ROOT;
 	$DB_CONF_PATH = DB_CONF_PATH;
+	$FQDN = FQDN;
 	$HOST_URL = HOST_URL;
-	$FQDN = FQDN; 		
-	$CTRL = CTRL;	
+	$CTRL_URL = CTRL_URL;
+	$VIEW_URL = VIEW_URL;	
 ?>
