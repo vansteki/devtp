@@ -1,5 +1,5 @@
 <?php
-require_once('/APP/app_config/define.php');
+require_once('pathTo/devTP/app_config/define.php');
 require_once(ADMIN);
 
 echo $argc."\n";
