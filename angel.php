@@ -27,7 +27,7 @@ switch ($argv[1]) {
         break;
     case 'update_user_stats':
         if ($argv[2] != NULL && $argv[3] != NULL)
-                printf("\nUpdate user %s stats: %s, affected rows: %s\n", $argv[2],$argv[3], (new ADmin)->$argv[1]($argv[2],$a$
+            printf("\nUpdate user %s stats: %s, affected rows: %s\n", $argv[2],$argv[3], (new ADmin)->$argv[1]($argv[2],$argv[3]));
         break;
     default:
         // Do something by default
