@@ -13,6 +13,7 @@
 	define('CTRL_URL', HOST_URL.'/controller');
 	define('ADMIN', ROOT.'/model/admin.php');
 	define('SESSION_MAX_TIME', 0);
+	define('COM', ROOT.'/components/panel.php');
 	
 	$ROOT =  ROOT;
 	$DB_CONF_PATH = DB_CONF_PATH;
